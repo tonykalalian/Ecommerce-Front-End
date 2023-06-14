@@ -1,6 +1,6 @@
-import coverImage1 from './assets/images/cover.jpg';
-import coverImage2 from './assets/images/cover.jpg';
-import coverImage3 from './assets/images/cover.jpg';
+import coverImage1 from './assets/images/5.png';
+import coverImage2 from './assets/images/2.jpg';
+import coverImage3 from './assets/images/3.png';
 
 const sliderItems = [
   {
@@ -13,16 +13,16 @@ const sliderItems = [
   {
     id: 2,
     img: coverImage2,
-    title: "Laurence",
-    description: "Shop today at Nicola's Market website",
+    title: "Free Delivery",
+    description: "Free Delivery for all the order above 50$",
     bg:"3C4048"
 
   },
   {
     id: 3,
     img: coverImage3,
-    title: "Go Fresh",
-    description: "Shop today at Go fresh's Market website",
+    title: "24/7",
+    description: "Always here for you",
     bg:"EAEAEA"
 
   }
