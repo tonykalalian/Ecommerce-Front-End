@@ -2,14 +2,16 @@ import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import { useState } from "react";
 import styled from "styled-components";
-import sliderItems from '../data';
-
+import {sliderItems} from '../data';
+import {mobile} from "../responsive"
 const Container = styled.div`
   width: 100%;
   height: 100vh;
   display: flex;
   position: relative;
   overflow: hidden;
+  ${mobile({ display: "none" })}
+
 `;
 const Arrow = styled.div`
   width: 50px;
@@ -96,7 +98,7 @@ setSlideIndex(slideIndex <2 ? slideIndex +1 :0)
       <Wrapper slideIndex={slideIndex}>
         {sliderItems.map(item=>(
       
-          <Slide bg={item.bg}>
+          <Slide bg={item.bg} key={item.id}>
 <ImgContainer>
 <Image src={item.img}/>
 </ImgContainer>
