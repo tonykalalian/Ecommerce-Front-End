@@ -3,7 +3,8 @@ import Navbar from "../components/Navbar"
 import Announcement from "../components/Announcement"
 import Footer from "../components/Footer"
 import { Add, Remove } from "@mui/icons-material";
-
+import Apple from "../assets/images/apple.png";
+import Mango from "../assets/images/mango.png";
 const Container = styled.div``;
 
 const Wrapper = styled.div`
@@ -164,18 +165,15 @@ const Cart = () => {
         <Info>
           <Product>
             <ProductDetail>
-              <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1614188818-TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_b01b1013-cd8d-48e7-bed9-52db26515dc4.png?crop=1xw:1.00xh;center,top&resize=480%3A%2A" />
+              <Image src={Apple} alt=""/>
               <Details>
                 <ProductName>
-                  <b>Product:</b> JESSIE THUNDER SHOES
+                  <b>Product:</b> Apple
                 </ProductName>
                 <ProductId>
                   <b>ID:</b> 93813718293
                 </ProductId>
-                <ProductColor color="black" />
-                <ProductSize>
-                  <b>Size:</b> 37.5
-                </ProductSize>
+              
               </Details>
             </ProductDetail>
             <PriceDetail>
@@ -190,18 +188,14 @@ const Cart = () => {
           <Hr />
           <Product>
             <ProductDetail>
-              <Image src="https://i.pinimg.com/originals/2d/af/f8/2daff8e0823e51dd752704a47d5b795c.png" />
+              <Image src={Mango} />
               <Details>
                 <ProductName>
-                  <b>Product:</b> HAKURA T-SHIRT
+                  <b>Product:</b> Mango
                 </ProductName>
                 <ProductId>
                   <b>ID:</b> 93813718293
                 </ProductId>
-                <ProductColor color="gray" />
-                <ProductSize>
-                  <b>Size:</b> M
-                </ProductSize>
               </Details>
             </ProductDetail>
             <PriceDetail>

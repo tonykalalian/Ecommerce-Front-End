@@ -2,7 +2,7 @@ import "./Announcement.css";
 const Announcement = () => {
   return (
     <div className="announcement-container">
-        Summer offers are coming soon !
+        All our products are 100% organid
     </div>
   )
 }

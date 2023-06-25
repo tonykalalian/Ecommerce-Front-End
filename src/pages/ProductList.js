@@ -90,7 +90,7 @@ const ProductList = () => {
     <Container>
       <Navbar />
       <Announcement />
-      <Title>Poultry </Title>
+      <Title>Fruits </Title>
       <FilterContainer>
         <Filter>
           <FilterText>Filter Products:</FilterText>
