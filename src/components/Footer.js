@@ -107,13 +107,13 @@ import { mobile } from "../responsive";
         <Right>
           <Title>Contact</Title>
           <ContactItem>
-            <Room style={{marginRight:"10px"}}/> Btouratih-Koura-North-District
+            <Room style={{marginRight:"10px"}}/> Btouratij-Koura-North-District
           </ContactItem>
           <ContactItem>
             <Phone style={{marginRight:"10px"}}/> +961 70 53 91 09
           </ContactItem>
           <ContactItem>
-            <MailOutline style={{marginRight:"10px"}} /> tkalalain@gmail.com
+            <MailOutline style={{marginRight:"10px"}} /> tkalalian@gmail.com
           </ContactItem>
           <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
         </Right>

@@ -1,10 +1,18 @@
-import "./Announcement.css";
-const Announcement = () => {
-  return (
-    <div className="announcement-container">
-        All our products are 100% organid
-    </div>
-  )
-}
+import styled from "styled-components";
 
-export default Announcement
+const Container = styled.div`
+  height: 30px;
+  background-color: teal;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+`;
+
+const Announcement = () => {
+  return <Container>"Crafted by hand, rooted in Lebanese heritage."</Container>;
+};
+
+export default Announcement;

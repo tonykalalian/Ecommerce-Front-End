@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import {categories} from "../data"
+import {cat} from "../data"
 import CategorieItem from "./CategorieItem"
 import { mobile } from "../responsive"
 
@@ -16,7 +16,7 @@ ${mobile({padding :"0px" , flexDirection:"column"})}
 const Categories = () => {
   return (
     <Container>
-{categories.map(item=>(
+{cat.map(item=>(
     <CategorieItem item ={item} key={item.id}/>
 ))}
     </Container>

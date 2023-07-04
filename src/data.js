@@ -1,35 +1,17 @@
-import FirstSliderImage from './assets/images/cover.jpg';
-import SecondSliderImage from './assets/images/2ndcover.jpg'
-import ThirdSliderImage from './assets/images/third.jpg';
-import Avocado from './assets/images/avocado.png';
-import Watermelon from './assets/images/watermelon.png';
-import Cherry from './assets/images/cherry.png';
-import Pear from './assets/images/pear.png';
-import Mango from './assets/images/mango.png';
-import Carrot from "./assets/images/carrot.png";
-import Apple from "./assets/images/apple.png";
-import Grape from "./assets/images/grape.png";
-import Lemon from "./assets/images/lemon.png";
-import BlueBerry from "./assets/images/blueberry.png";
-import Meat from "./assets/images/meat.jpg";
-import FruitsVegetables from "./assets/images/fruits-vegetables.jpg";
-import Dairy from "./assets/images/dairy.jpg";
-import Bakery from "./assets/images/bakery.jpg";
-import Beverages from "./assets/images/bev.jpg";
-import Frozen from "./assets/images/frozen.jpg";
+
 
 
 export const sliderItems = [
   {
     id: 1,
-    img: FirstSliderImage,
+    img: "",
     title: "Oliva",
     description: "Shop today at oliva's market website",
     bg:""
   },
   {
     id: 2,
-    img: SecondSliderImage,
+    img: "",
     title: "Free Delivery",
     description: "Free Delivery for all the order above 50$",
     bg:""
@@ -37,87 +19,78 @@ export const sliderItems = [
   },
   {
     id: 3,
-    img: ThirdSliderImage,
+    img: "",
     title: "24/7",
     description: "Always here for you",
     bg:""
 
   }
 ];
-export const categories =[
+export const cat = [
   {
     id: 1,
-    img:FruitsVegetables ,
-    title: "Fruits & vegetables"
+    img:"https://images.unsplash.com/photo-1573227896778-8f378c4029d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGVhdGhlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80" ,
+    title: "Leather",
+    cat:"Leather"
    
   },
   {
     id: 2,
-    img:Meat ,
-    title: "Meat & Poultry",
+    img:"https://d2w9m16hs9jc37.cloudfront.net/dimg/blog/2022/02/imagetools0.jpg" ,
+    title: "Shoes",
+    cat:"Shoes"
+
   },
   {
     id: 3,
-    img:Dairy ,
-    title: "Dairy & Eggs",
+    img:"https://i.pinimg.com/736x/b9/97/e2/b997e221c4b5b0632a7ec5677c8ad729--white-shirts-for-men-white-shirt-male.jpg" ,
+    title: "Chemise",
+    cat:"Chemise"
+
   },
   {
     id: 4,
-    img:Bakery ,
-    title: "Bakery",
+    img:"https://i.etsystatic.com/24318606/r/il/1cbaf0/4023800415/il_fullxfull.4023800415_kdiq.jpg" ,
+    title: "Pants",
+    cat:"Pants"
+
   },
   {
     id: 5,
-    img:Beverages,
-    title: "Beverages",
+    img:"https://cdn.shopify.com/s/files/1/0357/2432/9005/products/sshywd-6642.81-2_large.jpg?v=159130980133",
+    title: "Hats",
+    cat:"Hats"
+
   },
   {
     id: 6,
-    img:Frozen ,
-    title: "Ice Cream",
+    img:"https://static.toiimg.com/thumb/resizemode-4,width-1200,height-900,msid-72330956/72330956.jpg" ,
+    title: "Blazer",
+    cat:"Blazer"
+
   }
 ]
 export const popularProducts=[
   {
           id:1,
-          img:Avocado
+          img:""
   },
 
   {
           id:2,
-          img:Pear
+          img:""
   },
   {
           id:3,
-          img:Cherry
+          img:""
   },
   {
           id:4,
-          img:BlueBerry
+          img:""
   },
   {
           id:5,
-          img:Mango
+          img:""
   },
-  {
-          id:6,
-          img:Grape
-  },
-  {
-          id:7,
-          img:Carrot
-  },
-  {
-          id:8,
-          img:Apple
-  },
-  {
-          id:9,
-          img:Watermelon
-  },
-  {
-          id:10,
-          img:Lemon
-  },
-
+ 
 ]

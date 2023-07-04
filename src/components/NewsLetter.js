@@ -49,7 +49,7 @@ const Newsletter = () => {
   return (
     <Container>
       <Title>Newsletter</Title>
-      <Desc>Subscribe now for Oliva NewsLetter to stay updated with our latest products !</Desc>
+      <Desc>Subscribe now to our Newsletter !</Desc>
       <InputContainer>
         <Input placeholder="tkalalian@gmail.com" />
         <Button>
